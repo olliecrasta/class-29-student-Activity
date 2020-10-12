@@ -65,7 +65,8 @@ function draw(){
  
     platform.display();
     //log6.display();
-    slingshot.display();    
+    slingshot.display();  
+    fill("white");
     text(mouseX+","+mouseY, mouseX,mouseY);
 }
 
